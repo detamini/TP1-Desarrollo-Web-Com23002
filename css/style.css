@@ -126,6 +126,7 @@ footer {
     /* border: 2px violet solid; */
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 /* FORMATO RESPONSIVE*/
