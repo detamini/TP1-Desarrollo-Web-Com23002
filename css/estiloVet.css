@@ -16,7 +16,6 @@ nav {
     top: 0;
 }
 nav div {
-    /* border: 2px violet solid; */
     display: flex;
     align-items: center;
 }
@@ -75,7 +74,7 @@ nav div {
 }
 .navMenu li ul li{
     position: relative;
-    padding: 4px;  /*si lo queres mas separado ajusta aca*/
+    padding: 4px; 
     
     
 }
@@ -94,7 +93,6 @@ header {
 }
 
 .contenedorIntroduccion {
-    /* background-color: #62b13ee1; */
     margin: 0;
     padding: 0.5rem;
 }
@@ -127,7 +125,6 @@ footer {
 }
 
 .contenedorFooter {
-    /* border: 2px violet solid; */
     display: flex;
     justify-content: space-between;
 }
