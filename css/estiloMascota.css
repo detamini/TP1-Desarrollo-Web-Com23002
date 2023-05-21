@@ -2,7 +2,13 @@
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
+    
 }
+main header{
+    background-color: rgb(254, 251, 240);
+}
+
+
 /* BARRA DE NAVEGACION */
 nav {
     background:#62b13ee1;
@@ -32,7 +38,7 @@ nav div {
 }
 
 .navLista:hover {
-    background-color:rgb(157, 216, 171) ;
+    background-color:rgb(62, 113, 74);
     box-shadow:2px 2px 10px rgb(0,0,0,0.5);
     border-radius: 10px;
 }
@@ -42,12 +48,49 @@ nav div {
     color:white;
 }
 
+ ul, ol{
+    list-style: none;
+}
+.sinestilo{
+    list-style: none;
+    
+}
+.sinestilo li{
+    align-items: center;
+    
+}
+.navMenu li a{
+    display: block;
+}
+.navMenu li ul{
+    display:none;
+    position:absolute;
+}
+.navMenu li:hover > ul{
+    display:block;
+    background-color: #9DC08B;
+    background-color:rgb(157, 216, 171) ;
+    box-shadow:2px 2px 10px rgb(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 15px;
+}
+.navMenu li ul li{
+    position: relative;
+    padding: 4px;  /*si lo queres mas separado ajusta aca*/   
+    
+}
+.navMenu li ul li:hover{
+    display: block;
+    background-color:#434343;   
+}
+
+
 /* BANNER MASCOTA */
 
 .bannerMascota {
     text-align: center; 
     border-radius: 0 0 15px 15px;
-    background-color: #62b13ee1;
+    /* background-color: #dae1d7e1; */
     
 }
 .introMascota {
@@ -68,7 +111,8 @@ nav div {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0.5rem;
+    margin: 0;
+    padding: 8px;
 }
 .infoMascota p{
     text-align: center;
@@ -87,10 +131,10 @@ nav div {
 
 /*FOOTER*/
 footer {
-    background:#62b13ee1;
+    background:#39632d;
     color:white;
-    margin: 0.5rem;
-    padding: 0.5rem;
+    margin: 0;
+    padding: 1.0rem;
 }
 
 .contenedorFooter {

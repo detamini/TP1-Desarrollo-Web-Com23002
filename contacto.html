@@ -7,58 +7,72 @@
     <title>Consejos para tu Mascota</title>
     <link rel="shortcut icon" href="img/faviconHuella.png" type="image/x-icon">
     <link rel="stylesheet" href="css/estiloFormulario.css">
+    
 </head>
 <body>
     <nav>
         <div>
             <div class="logo">
-                <a href="inicio.html" >
+                <a href="index.html" >
                     <img src="img/logoHuellas.png" alt="Logo Huellas" width="100px">
                 </a>
             </div>
             <div class="nombreLogo">
                 <h4>Consejos<br>para tu Mascota</h4>
             </div>
-        </div>
-        <div >
+            </div>
+            <div >
             <ul class="navMenu">
-                <li class="navLista"><a href="inicio.html" target="_blank">INICIO</a></li>
-                <li class="navLista"><a href="inicio.html #bannerMascotas" target="_blank"> MASCOTAS </a></li>
+                <li class="navLista"><a href="index.html">INICIO</a></li>
+                <li class="navLista"><a href="index.html"> MASCOTAS </a>
+                    <ul  class="sinestilo">
+                        <li><a href="mascotaPerro.html">Perros</a></li>
+                        <li><a href="mascotaGato.html">Gatos</a></li>
+                        <li><a href="mascotaCobayo.html">Cobayos</a></li>
+                    </ul>
+                </li>
                 <li class="navLista"><a href="veterinarias.html" target="_blank">VETERINARIAS</a></li>
-                <li class="navLista"><a href="#" >CONTACTO</a></li>
+                <li class="navLista"><a href="Contacto.html" target="_blank">CONTACTO</a></li>
             </ul>
-        </div>
+            </div>
     </nav>
+    <header>
+        <div class="contenedorContacto">
+            <h3>Si queres mas informacion sobre tu mascota<br>
+                 no dudes en consultarnos 
+            </h3>
+         </div>
+    </header>
     <main class="Contacto"> 
-        <form>
-            <h2>Contactanos</h2>
+        <form method="post"  id="form">
             <div class="input-group">
              <label for="lname">Nombre:</label>
-             <input type="text" id="name" name="name"><br><br>
+             <input type="text" id="name" name="name" placeholder="Ingrese nombre"><br><br>
+             
              <label for="email">Email:</label>
-             <input type="email" id="email" name="email"><br><br>
+             <input type="email" id="email" name="email" placeholder="Ingrese email"><br><br>
+             
              <label for="Consulta">Consulta:</label>
-             <textarea type="Consulta" id="Consulta" name="Consulta" cols="30" rows="5" placeholder="Mensaje"></textarea><br><br>
-             <input class="btn" type="submit" value="Enviar">
+             <textarea type="consulta" id="consulta" name="consulta" cols="30" rows="5" placeholder=" Ingrese su consulta"></textarea><br><br>
+             
+             <button type="submit" class="btn">Enviar</button>
+             <p class="warnings" id="warnings"></p>
             </div>
         </form>
     </main>
     <footer>
         <div class="contenedorFooter">
-           <div class="footerIntegrantes">
-            <p>Andrea</p>
-            <p>Daniela</p>
-            <p>Alejandro</p>
-           </div>
-            <div class="footerRedes">
-                <a href="#"><img src="img/facebook.png" alt="facebook" width="50px"></a>
-                <a href="#"><img src="img/instagram.png" alt="facebook" width="50px"></a>
-                <a href="#"><img src="img/twitter.png" alt="facebook" width="50px"></a>
+            <div class="footerIntegrantes">
+                <p>Diseñado por : Andrea Pilipiw, Daniela Tamini y Alejandro Cruz</p>
             </div>
-        </div>
+            <div class="footerRedes">
+                <p>© Copyright 2023 </p>
+            </div>
+            </div>
     </footer>
 
-
+    <script src="js/app.js"></script>
 
 </body>
 </html>
+
