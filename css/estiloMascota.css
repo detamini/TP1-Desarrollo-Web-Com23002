@@ -1,9 +1,10 @@
 * {
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Open Sans', sans-serif; 
     margin: 0;
     
 }
+
 main header{
     background-color: rgb(254, 251, 240);
 }
@@ -48,9 +49,10 @@ nav div {
     color:white;
 }
 
- ul, ol{
+ /* ul, ol{
     list-style: none;
-}
+} */
+
 .sinestilo{
     list-style: none;
     
@@ -100,12 +102,13 @@ nav div {
     justify-content: center;
     margin: 0.5rem;
 }
-.introImgCobayo {
+
+.imgMascotas {
     width: 30%;
     height: 100%;
     padding-top: 0.5rem;
     border-radius:15px;
-}
+} 
 
 .infoMascota {
     display: flex;
@@ -120,14 +123,6 @@ nav div {
 .infoMascota h2{
     text-align: center;
 }
-
-.gifCobayo {
-    width: 30%;
-    height: 100%;
-    padding-top: 0.5rem;
-    border-radius:15px;
-}
-
 
 /*FOOTER*/
 footer {
@@ -153,7 +148,7 @@ footer {
         flex-direction: column-reverse;
         
     }
-    .introImgCobayo, .gifCobayo{
+    .imgMascotas{
         width: 40%;
     }
     .infoMascota {
