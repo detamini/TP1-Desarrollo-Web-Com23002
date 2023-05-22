@@ -1,8 +1,12 @@
 * {
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
-    
+
+}
+/*BODY*/
+body {
+    background: rgb(254, 251, 240);
 }
 
 /* BARRA DE NAVEGACION */
@@ -49,7 +53,7 @@ nav div {
 /* BANNER IMAGEN Y FRASE */
 
 .banner {
-    text-align: center; 
+    text-align: center;
 }
 
 .bannerImagen {
@@ -91,7 +95,7 @@ nav div {
     border-radius:15px;
     width: 18rem;
     height: auto;
-    
+
 }
 
 .cardTitulo{
@@ -131,6 +135,14 @@ footer {
 }
 
 /* FORMATO RESPONSIVE*/
+@media (max-width: 940px) {
+    
+    .contenedorMascotas {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
 @media (max-width: 643px) {
     nav {
         flex-direction: column;
