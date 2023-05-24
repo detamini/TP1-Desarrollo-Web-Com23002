@@ -6,13 +6,13 @@
 }
 /*BODY*/
 body {
-    background: rgb(254, 251, 240);
+    background: rgb(244, 242, 238);
 }
 
 /* BARRA DE NAVEGACION */
 nav {
-    background:#62b13ee1;
-    color:white;
+    background:#fcfdfae1;
+    color:rgb(159, 156, 156);
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -28,7 +28,7 @@ nav div {
     display: flex;
     list-style: none;
     align-items: center;
-    color:white;
+    color:rgb(159, 156, 156);
     gap: 0.5rem;
     font-weight: bold;
 }
@@ -39,14 +39,14 @@ nav div {
 }
 
 .navLista:hover {
-    background-color:rgb(62, 113, 74) ;
+    background-color:#C72C41 ;
     box-shadow:2px 2px 10px rgb(0,0,0,0.5);
     border-radius: 10px;
 }
 
 .navLista a{
     text-decoration: none;
-    color:white;
+    color:rgb(177, 173, 173);
 }
 
 
@@ -63,18 +63,18 @@ nav div {
 }
 
 .bannerTexto {
-    padding: 0.5rem;
-    background-color: #62b13ee1;
+    padding: 5rem;
+    background-color: #EB8242;
     color:white;
 }
 
 /* MASCOTAS */
 .mascotasTexto{
-    padding: 0.5rem;
-    background-color: #62b13ee1;
+    padding: 5rem;
+    background-color: #C72C41;
     color:white;
     text-align: center;
-    margin-top: 0.5rem;
+    margin-top: 0;
 }
 
 .contenedorMascotas {
@@ -83,11 +83,12 @@ nav div {
     grid-column: auto;
     justify-items: center;
     align-items: center;
-    background-color: rgb(254, 251, 240);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
 }
 
 .card {
-    background-color: #91be7b;
+    background-color: #ffffff;
     box-shadow:2px 2px 10px rgb(0,0,0,0.5);
     text-align: center;
     margin: 0.5rem;
@@ -102,7 +103,7 @@ nav div {
     /* border-radius:0 0 15px 15px; */
     border-radius: 10px;
     box-shadow:2px 2px 10px rgb(0,0,0,0.5);
-     background-color:rgb(62, 113, 74)  ; /*  #2e531de1 */
+     background-color:rgb(250, 246, 246)  ; /*  #2e531de1 */
     font-size: 1.5rem ;
     color:white;
     padding: 5px 5px;
@@ -112,25 +113,25 @@ nav div {
 }
 
 .cardTitulo:hover{
-     background-color:rgb(95, 187, 116);
+     background-color: #dc2e45;
 }
 .cardTitulo a {
      text-decoration:none;
-     color:white;
+     color:rgb(42, 41, 41);
 }
 
 /*FOOTER*/
 footer {
-    background:#39632d;
-    color:white;
+    background:#ead1d1;
+    color:rgb(13, 13, 13);
     margin: 0;
-    padding: 1.0rem;
+    padding: 2rem;
 }
 
 .contenedorFooter {
     /* border: 2px violet solid; */
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
 }
 

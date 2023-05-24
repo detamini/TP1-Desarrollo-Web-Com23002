@@ -8,13 +8,13 @@ html {
     font-size: 1rem;
     height: 100%;
     font-family: 'Open Sans', sans-serif; 
-    background-color: rgb(254, 251, 240);
+   /* background-color:#f6f1f2;  */
 }
 
 /* BARRA DE NAVEGACION */
 nav {
-    background:#62b13ee1;
-    color:white;
+    background:#fcfdfae1;
+    color:rgb(159, 156, 156);
     display: flex;
     justify-content: space-between;
     top: 0;
@@ -29,7 +29,7 @@ nav div {
     display: flex;
     list-style: none;
     align-items: center;
-    color:white;
+    color:rgb(159, 156, 156);
     gap: 0.5rem;
     font-weight: bold;
 }
@@ -40,19 +40,20 @@ nav div {
 }
 
 .navLista:hover {
-    background-color:rgb(62, 113, 74) ;
+    background-color:#C72C41 ;
     box-shadow:2px 2px 10px rgb(0,0,0,0.5);
     border-radius: 10px;
 }
 
 .navLista a{
     text-decoration: none;
-    color:white;
+    color:rgb(177, 173, 173);
 }
+
 
 /* estilos contenido  */
 .contenedorContacto {
-    background-color: rgb(254, 251, 240); 
+    background-color:#eed5da; 
     margin: 0;
     padding: 1.0rem;
 }
@@ -105,9 +106,6 @@ header a:hover{
     background-color:#9DC08B;
 
 }
-header{
-    background-color:#9DC08B;
-}
 .headerLogo a img{
     width: 10%;
 }
@@ -134,12 +132,11 @@ h3{
 }
 
 .headerMenu li {
-    background-color:#9DC08B;
     float: left;
     text-align: center;
   /* margin: 0 0.3rem 0; */
     padding: 0.5rem;
-} 
+}  
 .sinestilo{
     list-style: none;
     
@@ -160,26 +157,22 @@ h3{
 }
 .navMenu li:hover > ul{
     display:block;
-    background-color: #9DC08B;
-    background-color:rgb(157, 216, 171) ;
+    background-color:#fcfdfae1;
     box-shadow:2px 2px 10px rgb(0,0,0,0.5);
     border-radius: 10px;
     padding: 15px;
-    
- 
 }
 .navMenu li ul li{
     position: relative;
-    padding: 4px;  /*si lo queres mas separado ajusta aca*/
-    
+    padding: 4px; 
     
 }
 .navMenu li ul li:hover{
     display: block;
-    background-color:#434343;
-    
-    
+    background-color:#C72C41;
+    border-radius: 10px;
 }
+
 .warnings{
     width:200px;
     text-align: center;
@@ -196,14 +189,15 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px;
 }
 form{
-    padding: 50px 50px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
-    border-radius: 20px;
+    padding: 40px 40px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.2);
+    border-radius: 50px;
     text-align: center;
     width: 600px;
-    background-color: #91be7b;
+    background-color:#a91414;
 }
 .input-group{
     display: flex;
@@ -231,7 +225,7 @@ input,textarea{
     outline:none;
 }
 input::placeholder, textarea::placeholder{
-    color:#b5cab6
+    color:#f7f3f3
 }
 
 .form-txt{
@@ -241,37 +235,39 @@ input::placeholder, textarea::placeholder{
     text-align: center;
 } 
 .form-text a{
-    color: #76b28e;
+    color: #000000;
     font-size: 14px;
     font-weight: 600;
     text-decoration: none;
 } 
 .btn{
     font-size: 16px;
-    color:#FFFFFF;
+    color:#030303;
     border: 0;
     border-radius: 25px;
-    background-color: #2e531de1;
-    box-shadow: 0 0 20px #2e531de1;
+    background-color: #dbd1d2;
+    box-shadow: 0 0 10px #f3adb5;
     cursor: pointer;
+    padding: 14px;
 }
 
 .btn:hover{
-    background-color:rgb(157, 216, 171) ;
+    background-color:#e4b3b9;
 }  
 
-/* Footer */
+/*FOOTER*/
 footer {
-    background:#39632d;
-    color:white;
+    background:#ead1d1;
+    color:rgb(13, 13, 13);
     margin: 0;
-    padding: 1.0rem;
+    padding: 2rem;
 }
 
 .contenedorFooter {
     /* border: 2px violet solid; */
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
+    align-items: center;
 }
 
 /* FORMATO RESPONSIVE*/
