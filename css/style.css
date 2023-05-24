@@ -63,14 +63,14 @@ nav div {
 }
 
 .bannerTexto {
-    padding: 5rem;
+    padding: 2.5rem;
     background-color: #EB8242;
     color:white;
 }
 
 /* MASCOTAS */
 .mascotasTexto{
-    padding: 5rem;
+    padding-top: 3rem;
     background-color: #C72C41;
     color:white;
     text-align: center;

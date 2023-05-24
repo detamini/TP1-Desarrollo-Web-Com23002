@@ -11,10 +11,10 @@ document.getElementById("idnav").innerHTML = `
             </div>
             <div >
             <ul class="navMenu">
-                <li class="navLista"><a href="index.html">INICIO</a></li>
-                <li class="navLista"><a href="#bannerMascotas"> MASCOTAS </a></li>
-                <li class="navLista"><a href="veterinarias.html" target="_blank">VETERINARIAS</a></li>
-                <li class="navLista"><a href="contacto.html" target="_blank">CONTACTO</a></li>
+                <li class="navLista animate__animated animate__tada"><a href="index.html">INICIO</a></li>
+                <li class="navLista animate__animated animate__tada"><a href="#bannerMascotas"> MASCOTAS </a></li>
+                <li class="navLista animate__animated animate__tada"><a href="veterinarias.html" target="_blank">VETERINARIAS</a></li>
+                <li class="navLista animate__animated animate__tada"><a href="contacto.html" target="_blank">CONTACTO</a></li>
             </ul>
 </div>
 `
